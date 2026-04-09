@@ -1,5 +1,5 @@
 server:
-  port: 8082
+  port: 8081
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5434/catalog_service_db
