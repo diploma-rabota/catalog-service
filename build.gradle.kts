@@ -36,6 +36,8 @@ dependencies {
     implementation("org.flywaydb:flyway-database-postgresql:11.14.1")
 
     runtimeOnly("org.postgresql:postgresql")
+    runtimeOnly("io.micrometer:micrometer-registry-prometheus")
+
 
     testImplementation("org.springframework.boot:spring-boot-starter-actuator-test")
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit5")
